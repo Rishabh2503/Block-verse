@@ -1,0 +1,370 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+nav {
+  background-color: #f2f7fd;
+  padding: 10px;
+  display: flex;
+  font-size: 1.2rem;
+align-items: center;
+height : 93px;
+
+  
+}
+.logo {
+  margin-left: 1rem;
+}
+.logo img{
+  width: 10rem;
+  background:none;
+
+}
+.nav-links {
+  padding: 0 4rem;
+  margin : 0 1rem;
+}
+
+.nav-links a {
+  margin-right: 2rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 100;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn{
+  width:1.5rem;
+  height: 1.5rem;
+  border : none;
+  border-radius: 50%;
+  position : relative;
+  top: 0.2rem;
+
+}
+.dropbtn img{
+width:1.5rem;
+height: 1.5rem;
+positon : relative;
+
+}
+.dropdown-label {
+  margin-left: 10px;
+  color: black;
+  cursor : pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(212, 236, 251);
+  border-radius: 14px;
+  padding: 10px;
+  width: 10rem;
+  height: 8rem;
+ 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropdown-contentlink{
+  margin: 2rem 1rem;
+  cursor: pointer;
+}
+.login-btn,
+.signup-btn {
+  background-color: #2793ff;
+  border: none;
+  padding: 10px;
+  margin-right: 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+cursor : pointer;
+}
+.login-btn{
+  background-color: #f2f7fd;
+}
+.signup-btn {
+  color: white;
+  width : 6rem;
+ height : 2.6rem;
+
+}
+.nav-all{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.actions{
+  margin-left: 20rem;
+}
+/* Main */.main-container{
+      display: inline-flex;
+    }
+    .main-left{
+      margin-top: 3rem;
+      margin-left: 4rem;
+    }
+.main-left h1{
+      font-family : Aspira;
+      font-size: 4.5rem;
+}
+
+.left-image img{
+margin-top : 1rem;
+
+      width: 26rem;
+
+    }
+   
+  
+  form{
+    margin: 2rem;
+    margin-left : 18rem;
+       box-shadow: -1px -2px 9px 1px rgba(0, 0, 0, 0.200);
+      background-color: rgba(251, 251, 251, 0.103);
+      
+      border-radius: 14px;
+      width: 472px;
+    height: 556px;
+    
+
+      
+  }
+  .form-heading{
+      margin: 2rem;
+      display: inline-flex;
+      align-items: center;
+      text-align: center;
+      justify-content: space-evenly;
+    width: 90%;
+color : #B8B6B6;
+
+}
+.heading45{
+       color: #2a92e6;
+
+}
+.left-content2{
+  margin-top: 1rem;
+}
+
+  .progress{
+      position: absolute;
+  top: 25%;
+  width: 400px;
+  height: 4px;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  }
+  .progress-bar{
+      color: #2793ff;
+  background: #2793ff;
+  height: 2rem;
+  width: 50%;
+  }
+  .form-inputs{
+      padding: 3rem 6rem;
+    width: 100%;
+
+  }
+  .main-label{
+    margin: 1rem 0;
+    opacity: 0.6;
+
+  }
+  .main-drop{
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+  }
+  /* .main-dropdown{
+      margin-top: 2rem;
+  } */
+    .main-dropdown {
+      display: inline-block;
+      position: relative;
+      width: 20rem;
+}
+.dropdown1{
+display : inline-flex;
+align-items: center;
+justify-content : space-between;
+padding-left : 0rem;
+}
+.dropdown1 img{
+width : 20px;
+margin-right:0.5rem;
+}
+.dropdown1 h6{
+font-size : 0.8rem;
+font-weight : 900;
+margin-right: 0.2rem;
+}
+.BTC{
+margin-left : 0.2rem;
+font-size : 0.6rem;
+ display : inline-flex;
+align-items: center;
+justify-content : center; 
+background : #d8dce5;
+border: 5px;
+width : 2rem;
+height : 1rem;
+
+
+
+}
+    
+  .main-dropdown-button {
+      /* display: inline-block;
+      border: 1px solid gray;
+      border-radius: 4px;
+      padding: 10px 30px 10px 20px;
+      background-color: #ffffff;
+      cursor: pointer;
+      white-space: nowrap;
+      width: 100%; */
+          border: black;
+          border-radius: 10px;
+          padding: 1em;
+          background-color: #f2f7fd;
+          box-shadow: inset 1px 1px 4px rgba(0,0,0,0.3);
+}
+    
+    .main-dropdown-button:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      width: 0; 
+      height: 0; 
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid black;
+      z-index: 3;
+    }
+    
+    .main-dropdown-button:hover {
+      background-color: #eeeeee;
+    }
+    
+    
+    .main-dropdown-input {
+      display: none;
+    }
+    
+    .main-dropdown-menu {
+      position: absolute;
+      top: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 0;
+      margin: 2px 0 0 0;
+      box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+      background-color: #ffffff;
+      list-style-type: none;
+      z-index: 5;
+    }
+    
+    .main-dropdown-input + .main-dropdown-menu {
+      display: none;
+    } 
+    
+    .main-dropdown-input:checked + .main-dropdown-menu {
+      display: block;
+    } 
+    
+.usd{
+display : inline-flex;
+align-items : center;
+justify-content : space-between;
+width : 20rem;
+
+}
+.usd p {
+margin-right : 1rem;
+color : #429fee;
+
+}
+
+ 
+    .buy-button{
+      margin-top: 1.5rem;
+      width: 20rem;
+      height: 3rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      border: none;
+      background-color: #2793ff;
+      color: white;
+      font-size: 1.4rem;
+}
+.left-content2{
+display : inline-flex;
+align-items: center;
+justify-content : space-between;
+}
+.left-content2{
+margin-left: 0.4rem;
+font-size : 1rem
+}
+.get{
+margin-left : 7rem;
+position : relative; 
+top: 1rem;
+background-color : #2793ff;
+width : 10rem;
+
+}
+
+/* Footer */
+footer{
+      position: fixed;
+      bottom: 2px;
+      background-color: #1788cb;
+      width: 100%;
+      height: 140px;
+      display: inline-flex;
+      align-items: left;
+      justify-content: space-around;
+      
+    }
+    .footer-header{
+      display: inline-flex;
+      align-items: center;
+      font-size : 1.5rem;
+      justify-content: space-evenly;
+      color : #B8B6B6;
+      
+}
+.footer-header span{
+color : white;
+}
+
+.footer-button{
+margin-left: 12rem;
+
+     padding: 17px 40px;
+border: 25px;
+ border-radius : 15px;
+background-color: white;
+box-shadow: inset 2px 2px 5px rgba(0,0,0,0.3);
+font-weight : bold;
+letter-spacing: 1.5px;
+font-size: 15px;
+
+}
+
